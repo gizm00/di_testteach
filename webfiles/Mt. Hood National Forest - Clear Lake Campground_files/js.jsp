@@ -1,0 +1,23 @@
+ 
+ 
+ 
+ 
+ 
+
+ 
+
+
+
+
+ 
+
+
+
+
+  
+  	
+  
+        
+ 
+ 
+delete djConfig.baseUrl;

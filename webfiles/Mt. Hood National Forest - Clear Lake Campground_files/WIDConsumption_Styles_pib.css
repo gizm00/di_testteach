@@ -1,0 +1,398 @@
+@charset "utf-8"; 
+
+
+#fullwidthcol {
+	float: left;
+	margin-bottom: 10px;
+	padding-left: 0px;
+	max-width:730px
+}
+
+
+#fullwidthcol {
+	overflow: hidden;
+	position: relative;
+	z-index: 0
+}
+
+
+#fullwidthcol img {
+	margin: 5px 10px 0 0;
+	float: left;
+	font-size: 0.7em;
+	font-weight: normal
+}
+
+#fullwidthcol img.border-blk {
+	margin: 5px 10px 0 0;
+	float: left;
+	border: 1px solid #333
+}
+
+#fullwidthcol img.full {
+	margin: 10px 0
+}
+
+#fullwidthcol p {
+	margin-top: 0.5em;
+	font-size: 0.9em;
+	line-height: 1.4em;
+	word-wrap: break-word;
+}
+
+#fullwidthcol ul {
+	position: relative;
+	margin: 10px 0;
+	padding: 0 0 0 10px;
+	list-style: none;
+	line-height: 1.4em;
+	clear: left
+}
+
+#fullwidthcol ul li {
+	margin: 0;
+	padding-left: 10px;
+	font-size: 0.9em;
+	background: url( ../../html/FSE_WIDTheme/images/center-col-list.gif)
+		no-repeat
+}
+
+#fullwidthcol ul li ul {
+	margin: 0;
+	padding: 0
+}
+
+#fullwidthcol ul li ul li {
+	margin: 0;
+	padding: 0 0 0 10px;
+	font-size: 1em;
+	background: url( ../../html/FSE_WIDTheme/images/center-col-list2.gif)
+		no-repeat
+}
+
+#fullwidthcol li.nostylebullet {
+	margin: 0;
+	padding-left: 10px;
+	font-size: 0.9em;
+	background: none
+}
+
+#fullwidthcol li.fsi-so-a {
+	margin: 0;
+	padding: 0 0 0 10px;
+	font-size: 1em;
+	background: url( ../../html/FSE_WIDTheme/images/center-col-list2.gif)
+		no-repeat
+}
+
+#fullwidthcol img.fsinternet {
+	margin: 0 10px 0 0;
+	float: left;
+	font-size: 0.7em;
+	font-weight: normal
+}
+
+#fullwidthcol ul p {
+	margin-top: 0.5em;
+	font-size: 0.95em;
+	line-height: 1.4em
+}
+
+#fullwidthcol ul p.dateline {
+	margin-top: 2px;
+	font-size: 11px;
+}
+
+#fullwidthcol ol {
+	margin: 10px 0;
+	padding: 0 0 0 30px;
+	line-height: 1.4em
+}
+
+#fullwidthcol ol li {
+	margin: 0;
+	padding-left: 0px;
+	font-size: 0.9em;
+	list-style: decimal;
+}
+
+#fullwidthcol ol li ol {
+	margin: 0 10px;
+	padding: 0
+}
+
+#fullwidthcol ol li ol li {
+	margin: 0;
+	padding: 0 0 0 0px;
+	font-size: 1em;
+}
+
+#fullwidthcol li a {
+	font-weight: normal
+}
+
+#fullwidthcol .tablecolor table {
+	margin: 10px 0;
+	width: 100%;
+	border: 1px solid #578000;
+	font-size: 0.85em;
+}
+
+#fullwidthcol .tablecolor th,#fullwidthcol .tablecolor td {
+	border-left: 1px solid #90A644;
+	padding: 5px
+}
+
+#fullwidthcol .tablecolor caption {
+	padding: 10px 0 0 0;
+	font-size: 1.1em;
+	text-align: left
+}
+
+#fullwidthcol .tablecolor thead th {
+	background: #EAE3B2;
+	color: #613722;
+	text-align: left;
+}
+
+#fullwidthcol .tablecolor tbody th {
+	background: #ECECC6;
+	border-bottom: 1px dashed #9ACD32;
+	text-align: left
+}
+
+#fullwidthcol .tablecolor tbody td {
+	background: #FFF;
+	border-bottom: 1px dashed #9ACD32;
+	word-wrap: break-word;
+	max-width: 400px
+}
+
+#fullwidthcol .tablecolor tbody tr.odd td {
+	background: #EEE;
+	border-bottom: 1px dashed #9ACD32
+}
+
+#fullwidthcol .tablecolor tfoot td {
+	background: #F7F1C2;
+	font-weight: bold;
+	text-align: right
+}
+
+#fullwidthcol .tablecolor img {
+	margin: 0;
+	padding: 0;
+}
+
+#fullwidthcol .tablecolor a {
+	font-weight: normal
+}
+
+#fullwidthcol .tablebare table {
+	margin: 10px 0;
+	width: 100%;
+	font-size: 0.85em;
+	border: none
+}
+
+#fullwidthcol .tablebare td {
+	padding: 3px
+}
+
+#fullwidthcol .tablebare caption {
+	padding: 10px 0 0 0;
+	font-size: 1.1em;
+	text-align: left;
+	border: none
+}
+
+#fullwidthcol .tablebare thead th {
+	text-align: left;
+	font-weight: bold;
+	border: none;
+	border-top: 1px solid #999
+}
+
+#fullwidthcol .tablebare tbody th {
+	text-align: left;
+	font-weight: bold;
+	border: none
+}
+
+#fullwidthcol .tablebare tbody td {
+	
+}
+
+#fullwidthcol .tablebare tfoot td {
+	text-align: right;
+	font-weight: bold;
+	border-bottom: 1px solid #999
+}
+
+#fullwidthcol .tablebare img {
+	margin: -13px 0 0 0;
+	padding: 0;
+}
+
+#fullwidthcol .tablebare a {
+	font-weight: normal
+}
+
+#fullwidthcol .spotlight {
+	margin: 0 8px 0 0;
+	padding: 0;
+	float: left;
+	width: 47%;
+}
+
+#fullwidthcol .rssstyle {
+	margin: 0 3px 8px 0;
+	padding: 0;
+	float: left;
+	width: 47%;
+}
+
+#fullwidthcol .spotlight h4 {
+	margin: 5px 0 0 0;
+	padding: 0;
+	font-size: 0.95em
+}
+
+#fullwidthcol h3 span.headerbox {
+	float: left;
+	width: 260px;
+}
+
+#fullwidthcol h3 span.headerbox a:hover {
+	color: #000099;
+	text-decoration: underline;
+	border-bottom: 0px solid #000099
+}
+
+#fullwidthcol h2 span.headerbox a:hover {
+	color: #000099;
+	text-decoration: underline;
+	border-bottom: 0px solid #000099
+}
+
+#fullwidthcol .photogallery {
+	position: relative;
+	float: left;
+	width: 362px;
+}
+
+#fullwidthcol img.divider {
+	margin: 7px 10px 0 0;
+	float: left;
+	max-width: 95%;
+	border: 0px
+}
+
+#fullwidthcol img.status {
+	margin: 7px 10px 5px 14px;
+	max-width: 95%;
+	border: 0px
+}
+
+#fullwidthcol .hline {
+	margin: 0 0 5px 0;
+	padding: 0;
+	width: 100%;
+	background: url( ../../html/FSE_WIDTheme/images/line-dot.gif) repeat-x
+		bottom left;
+	clear: both
+}
+
+#fullwidthcol .morefeatures {
+	float: right;
+	width: 15%;
+	text-align: right;
+	margin: -25px 10px 0 0;
+	padding: 0 10px 0 0;
+	background:
+		url(/FSE_WIDTheme/themes/html/FSE_WIDTheme/center-col-more.gif)
+		no-repeat right top
+}
+
+#fullwidthcol legend {
+	visibility: visible;
+	display: inline
+}
+
+#fullwidthcol div.header {
+	position: relative;
+	float: left;
+	width: 260px;
+	background: #ECECC6
+}
+
+#fullwidthcol div.show {
+	padding-top: 2px;
+	position: relative;
+	float: left;
+	width: 100px;
+	background: #ECECC6;
+	border-bottom: 1px solid #000
+}
+
+#fullwidthcol .more {
+	font-size: 1px;
+	vertical-align: super;
+	padding-bottom: 3px;
+	padding-left: 8px;
+	letter-spacing: 0.3px;
+	font-weight: bold;
+	border-bottom: 2px dotted #000099
+}
+
+#fullwidthcol a {
+	font-weight: bold
+}
+
+#fullwidthcol a:link
+	{
+	color: #000099;
+	text-decoration: none;
+}
+
+#fullwidthcol a:visited
+	{
+	color: #000099;
+	text-decoration: none;
+}
+
+#fullwidthcol a:hover
+	{
+	color: #000099;
+	border-bottom: 1px solid #000099
+}
+
+#fullwidthcol a:active
+	{
+	color: #000099
+}
+
+#fullwidthcol a.offsiteicon:hover {
+	color: #000099;
+	border-bottom: 1px solid #000099;
+	background-position: center right;
+}
+
+#fullwidthcol table.themetable {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	border: none;
+}
+
+#fullwidthcol td.themetd {
+	margin: 0;
+	padding: 0;
+	border: none
+}
+
+#fullwidthcol caption.themecaption {
+	padding: 0;
+	font-size: 0;
+	text-align: left
+}

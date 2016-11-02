@@ -1,0 +1,246 @@
+/************** .js STYLES ****************/
+	  .ewin_div1 img {
+			margin: 0;
+			position: static;
+		}
+	  #gMap .FSrec .ewin_close {
+	  	border: none;
+		cursor:pointer;
+		position:absolute;
+		z-index:10;
+	  }
+	  #gMap .gm-style .ewin_png_bg,
+	  #gMap .gm-style .ewin_content_inner .ewin_hdr .ewin_icon img {
+	  	display: block;
+	  	margin: 0;
+	  	padding: 0;
+	  }
+	 
+	 /*.ewin_close {
+	  	border: none;
+		cursor:pointer;
+	  }
+	  .ewin_png_bg {
+	  	display: block;
+	  }*/
+	  .ewin_png_act {
+	  	float: left;
+	  }
+	  .ewin_content {
+	  	position: absolute;
+		padding: 10px  0;
+		text-align: center;
+		/*border: 1px solid #FF0000;*/
+	  }
+	  .ewin_content_inner {		
+		text-align: center;
+		float: left;
+		color: #000000;
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		line-height: 13px;
+		/*border: 1px solid #FF0000;*/
+	  }
+	.ewin_content_inner div,
+	.ewin_content_inner p {
+		margin: 0;
+		padding: 0;
+	}
+	
+	.ewin_content .ewin_content_inner .ewin_body p img {
+    	height: 100% !important;
+    	width: 100% !important;
+	}
+	  
+/*********** html_function STYLES ******************/	  
+	.ewin_content .ewin_hdr,
+	.ewin_content .ewin_title,
+	.ewin_content .ewin_subtitle,
+	.ewin_content .ewin_body,
+	.ewin_content .ewin_ftr {
+		padding: 0;		
+		vertical-align: top;
+		text-align: left;
+		margin: 0 auto;
+	}  
+	.ewin_content .ewin_title h3 {
+	  	font-size:14px;
+		line-height: 16px;
+		padding: 0;
+		margin: 0;
+		clear: none;
+		/*border-bottom: 1px solid;
+		border-color:#583934;*/
+	  }
+	  .ewin_content .ewin_subtitle h4 {
+	  	font-size:12px;
+		line-height: 14px;
+		margin: 0;
+		margin-bottom: 8px;
+		padding: 0;
+	  }
+	  .ewin_content .ewin_subtitle h4 p {
+	  	clear: both;
+		margin: 0;
+		padding: 0;
+		margin-bottom: 2px;
+	  }
+	  .ewin_content .ewin_subtitle h4 label {
+	  	display: block;
+		float: left;
+		width: 50px;
+		text-align: right;
+	  }
+	  .ewin_content .ewin_subtitle h4 span {
+	  	display: block;
+		margin-left: 60px;
+		font-weight: normal;
+	  }
+
+	 /* .ewin_content .ewin_activityList {
+	    
+		display:block;
+	  	margin-bottom: 10px;
+	  }*/
+
+
+	
+      #ewin_activityList img{
+
+	  margin : 0;
+	  padding: 0;
+
+	  }
+
+	  .ewin_content .ewin_body p{
+		margin: 0;
+		margin-bottom: 7px;
+		padding: 0;
+	  }
+
+	  /*.ewin_content .ewin_ftr {
+		text-align: right;
+		padding: 5px 0 0 0;
+		border-top: 1px solid;
+	  } */
+
+     #ewin_ftr {
+		text-align: right;
+		padding: 5px 0 0 0;
+		border-top: 1px solid #fff;
+		color:#FFFFFF;
+	 }
+
+	 #ewin_ftr a:link, #ewin_ftr a:active, #ewin_ftr a:visited, #ewin_ftr a:hover{
+        color: rgb(221, 174, 34);
+        text-decoration:none;
+		border-bottom:none;
+		margin-right:10px;
+
+	 }
+
+/************* ESTYLE SPECIFIC ********************/
+	.FSyellow .ewin_content {
+		padding: 8px 0 10px 0;
+	}	
+	.FSyellow .ewin_content_inner {
+		width: 100%;
+		
+	}
+	.FSyellow {
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		line-height: 13px;
+	  }
+	.FSyellow .ewin_hdr {
+		width: 100%;
+		float: left;
+		background: url(../img/FSyellow_bg_header.gif) repeat-y left top;
+		border-bottom: 1px solid #848e5d;
+	}	  
+	.FSyellow .ewin_icon {
+		float: left;
+		margin-left: 7px;
+	}
+	.FSyellow .ewin_title {
+		padding-right: 25px;
+		padding-left: 14px;
+	}
+	.FSyellow .ewin_title h3 {
+		line-height: 15px;
+	}
+	.FSyellow .ewin_subtitle {
+		padding-top: 6px;
+	}
+	.FSyellow .ewin_subtitle span {
+		font-size: 11px;
+		line-height: 13px;
+	}
+	.FSyellow .ewin_subtitle,
+	.FSyellow .ewin_ftr,
+	.FSyellow .ewin_body {
+		clear: both;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.FSyellow .ewin_ftr {
+	border-color:#848e5d;
+	}
+
+
+/********** FSrec *************/
+	
+	.FSrec .ewin_content {
+		padding: 10px 0 7px 0;
+	}	
+	.FSrec .ewin_content_inner {
+		width: 100%;
+		float: left;
+	}
+	.FSrec {
+		font-family:Verdana, Arial, Helvetica, sans-serif;
+		font-size: 11px;
+		line-height: 13px;
+		color: #FFFFFF;
+	  }
+	.FSrec p {
+		color: #FFFFFF;
+	}
+	.FSrec .ewin_hdr {
+		
+	}	  
+	.FSrec .ewin_icon {
+		float: left;
+	}
+	.FSrec .ewin_title {
+		padding-right: 30px;
+	}
+	.FSrec .ewin_title h3 {
+		line-height: 15px;
+		color: #FFFFFF;
+	}
+	.FSrec .ewin_subtitle span {
+		font-size: 11px;
+		line-height: 13px;
+	}
+	.FSrec .ewin_hdr,
+	.FSrec .ewin_subtitle,
+	.FSrec .ewin_ftr,
+	.FSrec .ewin_body {
+		clear: both;
+		width: 90%;
+		margin: 0 auto;
+		color: #FFFFFF;
+	}
+	.FSrec .ewin_ftr {
+	border-color:#FFFFFF;
+	
+	}
+	#map_body .FSrec .ewin_ftr A {
+		color:#DDAE22;
+	}
+	#map_body .FSrec .ewin_ftr A:hover {
+		border-bottom: 1px solid #F1DEA5;
+    	color: #F1DEA5;
+    	text-decoration: none;
+	}
